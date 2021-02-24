@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:id="@+id/con_pattern"
+    tools:context=".activity.PatternActivity">
+
+    <RelativeLayout
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/ll_pattern"
+        android:visibility="visible">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:src="@drawable/btn_back"
+            android:layout_margin="20dp"
+            android:id="@+id/iv_back">
+
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/tv_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="124dp"
+            android:fontFamily="@font/dam"
+            android:gravity="center"
+            android:text="@string/creat_pattern"
+
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tv_pass_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/thuong"
+            android:gravity="center"
+            android:text=""
+
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tv_pass_wrong_pattern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="124dp"
+            android:fontFamily="@font/dam"
+            android:gravity="center"
+            android:text="@string/pattern_wrong"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <com.andrognito.patternlockview.PatternLockView
+            android:id="@+id/patter_lock_view"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            app:aspectRatio="square"
+            app:aspectRatioEnabled="true"
+            app:dotAnimationDuration="150"
+            app:dotCount="3"/>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

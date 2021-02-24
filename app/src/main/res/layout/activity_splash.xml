@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:visibility="gone"
+    tools:context=".activity.SplashActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll_per"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="104dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon_bg"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/dam"
+            android:text="App Lock"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/thuong"
+            android:text="@string/protect"
+            android:textColor="#fff">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/bg_rl_per"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/dam"
+                android:text="@string/you_need"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/dam"
+                android:text="@string/app_for"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <RelativeLayout
+                android:id="@+id/rl_draw"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@drawable/bg_per">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/thuong"
+                    android:text="@string/per_draw"
+                    android:textColor="#EBEBEB">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/next"
+                    android:layout_alignParentRight="true"></ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_use"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_per">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/thuong"
+                    android:text="@string/per_use"
+                    android:textColor="#EBEBEB">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/next"
+                    android:layout_alignParentRight="true"></ImageView>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ll_pattern"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="104dp"
+            android:background="@drawable/icon_bg" />
+
+        <LinearLayout
+            android:id="@+id/ll_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_image"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/dam"
+                android:text="App Lock"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/thuong"
+                android:text="@string/protect"
+                android:textColor="#fff">
+
+            </TextView>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/dam"
+            android:gravity="center"
+            android:text="@string/creat_pattern"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tv_pass_again_splash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/thuong"
+            android:gravity="center"
+            android:text=""
+            android:visibility="gone"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_pass_wrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/dam"
+            android:gravity="center"
+            android:text="@string/pattern_wrong"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <com.andrognito.patternlockview.PatternLockView
+            android:id="@+id/patter_lock_view"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="390dp"
+            app:aspectRatio="square"
+            app:aspectRatioEnabled="true"
+            app:dotAnimationDuration="150"
+            app:dotCount="3" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_pin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        tools:context="com.andrognito.pinlockviewapp.SampleActivity">
+
+        <ImageView
+            android:id="@+id/iv_pin"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="104dp"
+            android:background="@drawable/icon_bg">
+
+        </ImageView>
+
+        <LinearLayout
+            android:id="@+id/ll_tv_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_pin"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/dam"
+                android:text="App Lock"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/thuong"
+                android:text="@string/protect"
+                android:textColor="#fff">
+
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_pass_pin"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_tv_pin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/dam"
+            android:gravity="center"
+            android:text="@string/craet_pin"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tv_pass_pin_again_splash"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_tv_pin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/thuong"
+            android:gravity="center"
+            android:text=""
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_pass_pin_wrong"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_tv_pin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/dam"
+            android:gravity="center"
+            android:text="@string/pin_wrong"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <com.andrognito.pinlockview.IndicatorDots
+            android:id="@+id/indicator_dots_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="390dp" />
+
+        <com.andrognito.pinlockview.PinLockView
+            android:id="@+id/pin_lock_view_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/indicator_dots_pin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            app:keypadButtonSize="54dp"
+            app:keypadDeleteButtonPressedColor="#4aa8ff"
+            app:keypadHorizontalSpacing="30dp"
+            app:keypadShowDeleteButton="true"
+            app:keypadTextColor="@color/white"
+            app:keypadTextSize="18dp"
+            app:keypadVerticalSpacing="30dp" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

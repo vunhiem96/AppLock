@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">AppLock</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app">My App</string>
+    <string name="app_lock">App Locked</string>
+    <string name="change_lock">Change pass lock</string>
+    <string name="privacy" translatable="false">Privacy Policy</string>
+    <string name="finger">Fingerprint</string>
+    <string name="dark">Dark mode</string>
+    <string name="craet_pin">Creat a Pin</string>
+    <string name="creat_pattern">Creat a Pattern</string>
+    <string name="creat_pattern_again">Creat a Pattern \n ( Again )</string>
+    <string name="creat_pin_again">Creat a Pin \n ( Again )</string>
+    <string name="pin_wrong">Pin Wrong</string>
+    <string name="pattern_wrong">Pattern Wrong</string>
+    <string name="again">( Again )</string>
+    <string name="protect">Protect your apps</string>
+    <string name="you_need">You need to give some permissions to the</string>
+    <string name="app_for">AppLock for Sercurity Policies</string>
+    <string name="per_draw">Permit drawing over other app</string>
+    <string name="per_use">Permit accessing usage starts</string>
+    <string name="enter_pin">Enter Pin</string>
+    <string name="draw_pattern">Draw Pattern</string>
+    <string name="choose">Choose a style</string>
+    <string name="your_dive">Your Device does not have a Fingerprint Sensor</string>
+    <string name="enable">Fingerprint authentication permission not enabled</string>
+    <string name="regiter">Register at least one fingerprint in Settings</string>
+    <string name="lock_screen">Lock screen security not enabled in Settings</string>
+    <string name="erro">The device does not support fingerprints</string>
+
+
+<!--    <string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+<!--    <string name="interstitial_ads_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="id_banner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+
+        <string name="app_id" translatable="false">ca-app-pub-8856838806537546~3221389438</string>
+        <string name="id_banner" translatable="false">ca-app-pub-8856838806537546/9280365479</string>
+
+</resources>

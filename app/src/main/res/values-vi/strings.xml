@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AppLock</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app">Ứng dụng của tôi</string>
+    <string name="app_lock">App đã khóa</string>
+    <string name="change_lock">Đổi khóa</string>
+    <string name="finger">Vân tay</string>
+    <string name="dark">DarkMode</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="craet_pin">Tạo một mã pin</string>
+    <string name="creat_pattern">Tạo một mẫu</string>
+    <string name="creat_pattern_again">Tạo một mẫu \n ( Again )</string>
+    <string name="creat_pin_again">Tại một mã pin \n ( Again )</string>
+    <string name="pin_wrong">Pin Sai</string>
+    <string name="pattern_wrong">Mẫu Sai</string>
+    <string name="again">( Lại )</string>
+    <string name="protect">Protect your apps</string>
+    <string name="you_need">Bạn cần cung cấp một số quyền cho</string>
+    <string name="app_for">AppLock cho Chính sách bảo đảm</string>
+    <string name="per_draw">Cho phép vẽ trên ứng dụng khác</string>
+    <string name="per_use">Cho phép truy cập dữ liệu sử dụng</string>
+    <string name="enter_pin">Nhập Mã Pin</string>
+    <string name="draw_pattern">Vẽ Mẫu</string>
+    <string name="choose">Lựa chọn kiểu khóa</string>
+    <string name="your_dive">Thiết bị của bạn không có Cảm biến vân tay</string>
+    <string name="enable">Quyền xác thực vân tay không được kích hoạt</string>
+    <string name="regiter">Đăng ký ít nhất một dấu vân tay trong Cài đặt</string>
+    <string name="lock_screen">Bảo mật màn hình khóa không được bật trong Cài đặt</string>
+    <string name="erro">Thiết bị của bạn không hỗ trợ vân tay</string>
+</resources>

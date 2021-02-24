@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/bg_dark"
+    >
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.9">
+
+        <TextView
+            android:fontFamily="@font/dam"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:textColor="#9CACF8"
+            android:text="NhiemVu Studio"
+            android:layout_above="@id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:fontFamily="@font/thuong"
+            android:textStyle="bold"
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:text="Lock App"
+            android:textColor="#F44336"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

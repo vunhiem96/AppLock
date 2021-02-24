@@ -1,0 +1,44 @@
+R_DEF: Internal format may change without notice
+local
+attr? dotDiameter
+attr? dotEmptyBackground
+attr? dotFilledBackground
+attr? dotSpacing
+attr? indicatorType
+attr? keypadButtonBackgroundDrawable
+attr? keypadButtonSize
+attr? keypadDeleteButtonDrawable
+attr? keypadDeleteButtonPressedColor
+attr? keypadDeleteButtonSize
+attr? keypadHorizontalSpacing
+attr? keypadShowDeleteButton
+attr? keypadTextColor
+attr? keypadTextSize
+attr? keypadVerticalSpacing
+attr? pinLength
+color greyish
+color mine_shaft
+color tranfarent
+color white
+dimen default_button_size
+dimen default_delete_button_size
+dimen default_dot_diameter
+dimen default_dot_spacing
+dimen default_horizontal_spacing
+dimen default_text_size
+dimen default_vertical_spacing
+drawable bg_btn
+drawable bg_btn_click
+drawable bg_pin
+drawable dot_empty
+drawable dot_filled
+drawable ic_backspace
+id button
+id buttonImage
+id fill
+id fillWithAnimation
+id fixed
+layout layout_delete_item
+layout layout_number_item
+string app_name
+styleable PinLockView pinLength keypadTextColor keypadTextSize keypadButtonSize keypadVerticalSpacing keypadHorizontalSpacing keypadButtonBackgroundDrawable keypadDeleteButtonDrawable keypadDeleteButtonSize keypadShowDeleteButton keypadDeleteButtonPressedColor dotEmptyBackground dotFilledBackground dotDiameter dotSpacing indicatorType

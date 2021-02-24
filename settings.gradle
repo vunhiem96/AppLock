@@ -1,0 +1,2 @@
+include ':app', ':pinlockview'
+rootProject.name='AppLock'

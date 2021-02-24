@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ebebeb"
+    android:id="@+id/rl_display"
+    >
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="#B9B6B6"
+        android:id="@+id/rv_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+
+        />
+</RelativeLayout>

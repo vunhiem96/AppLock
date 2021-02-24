@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="greyish">#aaa8a8</color>
+    <color name="mine_shaft">#303030</color>
+    <color name="tranfarent">#00FFFFFF</color>
+    <color name="white">#fff</color>
+    <dimen name="default_button_size">60dp</dimen>
+    <dimen name="default_delete_button_size">16dp</dimen>
+    <dimen name="default_dot_diameter">8dp</dimen>
+    <dimen name="default_dot_spacing">8dp</dimen>
+    <dimen name="default_horizontal_spacing">32dp</dimen>
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="default_vertical_spacing">0dp</dimen>
+    <string name="app_name">PinLockView</string>
+    <declare-styleable name="PinLockView">
+        <attr format="integer" name="pinLength"/>
+        <attr format="color" name="keypadTextColor"/>
+        <attr format="dimension" name="keypadTextSize"/>
+        <attr format="dimension" name="keypadButtonSize"/>
+        <attr format="dimension" name="keypadVerticalSpacing"/>
+        <attr format="dimension" name="keypadHorizontalSpacing"/>
+        <attr format="integer" name="keypadButtonBackgroundDrawable"/>
+        <attr format="integer" name="keypadDeleteButtonDrawable"/>
+        <attr format="dimension" name="keypadDeleteButtonSize"/>
+        <attr format="boolean" name="keypadShowDeleteButton"/>
+        <attr format="color" name="keypadDeleteButtonPressedColor"/>
+
+        <attr format="reference" name="dotEmptyBackground"/>
+        <attr format="reference" name="dotFilledBackground"/>
+        <attr format="dimension" name="dotDiameter"/>
+        <attr format="dimension" name="dotSpacing"/>
+        <attr format="enum" name="indicatorType">
+            <enum name="fixed" value="0"/>
+            <enum name="fill" value="1"/>
+            <enum name="fillWithAnimation" value="2"/>
+        </attr>
+
+    </declare-styleable>
+</resources>
